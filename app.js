@@ -44,7 +44,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "vinicius1:f6bff7cf2b5f34a9f6930990539dfca2-us12"
+        auth: "vinicius1:ba3802be7be9b51ad353a317cd0a53ae-us12"
     }
 
     const request = https.request(url, options, function(response){
@@ -80,7 +80,7 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 //api key
-//f6bff7cf2b5f34a9f6930990539dfca2-us12
+//ba3802be7be9b51ad353a317cd0a53ae-us12
 
 //audienceId
 //5a56964d3d
